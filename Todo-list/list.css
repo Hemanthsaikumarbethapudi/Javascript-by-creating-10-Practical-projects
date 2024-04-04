@@ -6,6 +6,57 @@
 }
 .window{
     min-height: 100vh;
-    background :linear-gradient(175deg,white,black);
+    background :linear-gradient(185deg,white,black);
     padding: 10px;
+}
+.container{
+    max-width: 545px;
+    background-color: white;
+    margin: 100px  auto;
+    padding: 40px 30px 70px;
+    border-radius: 5px;
+}
+.container h1{
+    color: violet;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.container h1 img{
+        width: 100px;
+        margin-left:10px;
+}
+.container:hover{
+    box-shadow: 1px 2px 4px 2px black;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: bisque;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 30px;
+}
+button{
+    border: none;
+    outline: none;
+    padding:16px;
+    border-radius: 20px;
+    background-color: green;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color:lawngreen;
+    color: black;
 }
