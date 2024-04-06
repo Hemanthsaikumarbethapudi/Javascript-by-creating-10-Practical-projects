@@ -6,7 +6,7 @@
 }
 .window{
     min-height: 100vh;
-    background :linear-gradient(185deg,white,black);
+    background :linear-gradient(175deg,white,rgb(0, 138, 192));
     padding: 10px;
 }
 .container{
@@ -17,7 +17,7 @@
     border-radius: 5px;
 }
 .container h1{
-    color: violet;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     margin-bottom: 30px;
@@ -52,11 +52,32 @@ button{
     padding:16px;
     border-radius: 20px;
     background-color: green;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     cursor: pointer;
 }
 button:hover{
     background-color:lawngreen;
     color: black;
+}
+ul.li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px ;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul.li::before{
+    content: '';
+    position:absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background: url(Images/download__5_-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    top:8px;
+    left: 16px;
+
 }
